@@ -1,10 +1,12 @@
 import sys
 
+
 def object_size(obj):
     """
     Function to return the memory usage of an object in MB
     """
     return sys.getsizeof(obj) / (1024 * 1024)
+
 
 def dataframe_memory_usage(df):
     """
